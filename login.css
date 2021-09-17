@@ -1,0 +1,97 @@
+*{
+	box-sizing: border-box;
+	font-family: arial;
+	font-size: 14px;
+}
+#container{
+	text-align: center;
+	margin: 30px 455px;
+	border: none;
+	width: 380px;
+	height: 517px;
+	background-color: #EEECE5;
+}
+h3{
+	margin-right: 2px;
+	padding-top: 12px;
+	font-size: 27px;
+}
+img{
+	height:180px;
+	width: 185px;
+	margin-top: -27.5px;
+	margin-bottom: -20px;
+}
+label[for="text"]{
+	margin-right: 288px;
+	margin-top: -10px;
+}
+input[name="un"]{
+	width: 94%;
+	padding: 8px 0px;
+	margin-top: 10px;
+	text-indent: 10px;
+	border: none;
+	outline: none;
+}
+#user_error{
+	font-size: 12px;
+	margin-top: 2px;
+	text-align: left;
+	text-indent: 15px;
+	font-style: italic;
+	font-weight: bold;
+	color: red;
+}
+input[name="pw"]{
+	width: 94%;
+	padding: 8px 0px;
+	margin-top: 10px;
+	text-indent: 10px;
+	border: none;
+	outline: none;
+}
+#pass_error{
+	font-size: 12px;
+	margin-top: 2px;
+	text-align: left;
+	text-indent: 15px;
+	font-style: italic;
+	font-weight: bold;
+	color: red;
+}
+input[name="cb"]{
+	border: none;
+	outline: none;
+}
+.agree{
+	margin-right: 140px;
+}
+p{
+	margin-right: 70px;
+}
+.signup{
+	color: blue;
+	font-weight: bold;
+}
+a{
+	text-decoration: none; 
+}
+input[name="btn"]{
+  border-radius: 3.6px;
+  padding: 12px 40px;
+  color: lightyellow;
+  background-color: blue;
+  border: none;
+  outline: none;
+}
+input[name="btn"]:active{
+  border-radius: 3.6px;
+  padding: 12px 40px;
+  color: lightyellow;
+  background-color: lightblue;
+  border: none;
+  outline: none;
+}
+
+

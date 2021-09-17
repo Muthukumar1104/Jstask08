@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="signup.css">
+	<script src="signup.js"></script>
+</head>
+<body>
+	<form id="container">
+		<h3>Signup</h3>
+		<label for="text" style="margin-left: -60px;">Username:</label><br>
+		<input type="text" name="un" id="un" placeholder="Enter username">
+		<p id="user_error"></p>
+		<label for="text" style="margin-left: -80px;">Email:</label><br>
+		<input type="text" name="email" id="email" placeholder="Enter Email">
+		<p id="email_error"></p>
+		<label for="text" style="margin-left: -25px;">New Password:</label><br>
+		<input type="password" name="np" id="np" placeholder="Enter new password">
+		<p id="np_error"></p>
+		<label for="text">Confirm Password:</label><br>
+		<input type="password" name="cp" id="cp" placeholder="Enter confirm password">
+		<p id="cp_error"></p>
+	    <input type="checkbox" name="cb" class="cb"><span class="agree">I agree on the terms&condtions</span>
+	    <p>Already have an new account click here to <a href="file:///D:/frontend/javascript/tasks/task_08/jstask8_login.html"><span class="login">login</span></a></p>
+	    <input type="button" name="btn" value="Submit" onclick="return validation()">
+	</form>
+</body>
+</html>
